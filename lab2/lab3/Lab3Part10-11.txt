@@ -1,0 +1,18 @@
+LAB3 PART10 
+The list below is partially ordered by insertion sort up until 5. How many comparisons and swaps are needed to sort the 5?
+[1 3 4 8 9 5 2]
+This list will take 13 comparisons to be sorted by inserion sort. The insertion sort will require only 1 comparison when i is
+at location 1,2,3 and 4 and this will amount to 4 comaparisons, then at position we find 5 and 3 comparisons are needed to find
+its right postion while for 2 at position 6 we need 6 comparisons to find its right position, therefore 4 + 3 + 6 amounts to 
+13 comparisons.
+There are 2 swaps needed to ge the 5 to its right position and 5 needed for the 2 therefore there will be a total of 7 swaps.
+LAB3 PART11
+Which method runs faster for each of the following items, selection sort or insertion sort?
+a) array with all keys identical?
+Insertion  sort runs a lot faster because if the keys are identical that means that the array is already sorted and then
+insertion sort has O(n), while selection sort has O(n^2) for every case.
+b) sorted array?
+As previously stated insertion sort is a lot more efficient than selection sort for sorted arrays.
+c) array in reverse order?
+For an array in reverse order selection sort will be faster than insertion sort sort because even if the time complexity for the
+comparisons are the same in both cases there will be a lot less swaps in selection sort (in the order of O(n)).
